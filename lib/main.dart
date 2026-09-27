@@ -8,15 +8,26 @@ void main(){
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color.fromARGB(255, 249, 117, 161),
-                const Color.fromARGB(255, 84, 200, 88),
+                Colors.red,
+                Colors.orange,
+                Colors.yellow,
+                Colors.green,
+                Colors.lightBlue,
+                const Color.fromARGB(255, 33, 44, 243),
+                const Color.fromARGB(255, 150, 15, 174),
               ],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
-            child: Text("Hello world!")
+            child: Text(
+              "RAINBOW!!",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 32,
+              ),
+            ),
           ),
         ),
       )),
